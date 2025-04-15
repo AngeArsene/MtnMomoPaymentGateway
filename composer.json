@@ -1,0 +1,46 @@
+{
+    "name": "ange-arsene/mtn_momo_payment_gateway",
+    "description": "The mtn_momo_payment_gateway is a robust integration solution designed for developers and businesses looking to incorporate MTN Mobile Money (MoMo) payment services into their applications. This gateway facilitates seamless transactions, allowing users to make payments directly through the MTN MoMo platform",
+    "type": "library",
+    "keywords": [
+        "mtn",
+        "momo",
+        "mobile money",
+        "payment gateway",
+        "payment",
+        "e-commerce",
+        "transaction",
+        "api",
+        "php",
+        "fintech",
+        "africa",
+        "cameroon",
+        "online payment",
+        "digital payment",
+        "money transfer",
+        "integration",
+        "mtn momo",
+        "payment processing"
+    ],
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "ramsey/uuid": "^4.7",
+        "vlucas/phpdotenv": "^5.6",
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AngeArsene\\MtnMomoPaymentGateway\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "Ange Arsene",
+            "email": "nkenmandenga@gmail.com",
+            "homepage": "https://angearsene.github.io/portfolio/"
+        }
+    ],
+    "minimum-stability": "stable"
+}

@@ -127,7 +127,7 @@ final class ApiUserService
      * 
      * @return string The generated access token
      */
-    public function create_access_token(): string
+    public function create_access_token()
     {
         // Remove any existing access token from the environment variables
         Helper::remove_env_key('access_token');
